@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: $color-link-product;
+    transition: transform 0.2s ease;
+    &:hover {
+        color: $color-link-select-product;
+        transform: scale(1.1);
+    }
+}
+
+nav {
+    background-color: $color-pagina;
+    margin-bottom: 25px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    main {
+        flex-grow: 1;
+        background-color: $color-main;
+    }
+}
+
+h1 {
+    font-size: 30px;
+}
+
+
+
+.bi {
+    font-size: 1.5rem;
+    margin-left: 1px;
+}

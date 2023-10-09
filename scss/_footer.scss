@@ -1,0 +1,27 @@
+footer {
+    margin-top: 50px;
+    background-color: $color-pagina;
+    width: 100%;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    @media (min-width: 512px), (min-width: 1024px), (min-width: 1600px) {
+        .col-md-4.text-center {
+            text-align: center;
+        }
+        .list-unstyled.text-center li {
+            text-align: center;
+        }
+    }
+}
