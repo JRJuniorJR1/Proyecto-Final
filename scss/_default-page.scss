@@ -7,7 +7,7 @@
 a {
     list-style: none;
     text-decoration: none;
-    padding: 10px 20px;
+    @include link-padding;
     color: $color-link-product;
     transition: transform 0.2s ease;
     &:hover {
